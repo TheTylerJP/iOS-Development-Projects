@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30E476862073C4DE00C14243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E476852073C4DE00C14243 /* AppDelegate.swift */; };
+		30E476882073C4DE00C14243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E476872073C4DE00C14243 /* ViewController.swift */; };
+		30E4768B2073C4DE00C14243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E476892073C4DE00C14243 /* Main.storyboard */; };
+		30E4768D2073C4DE00C14243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E4768C2073C4DE00C14243 /* Assets.xcassets */; };
+		30E476902073C4DE00C14243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E4768E2073C4DE00C14243 /* LaunchScreen.storyboard */; };
+		30E476952073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 30E476942073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit App.app */; };
+		30E4769B2073C4DE00C14243 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E476992073C4DE00C14243 /* Interface.storyboard */; };
+		30E4769D2073C4DE00C14243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E4769C2073C4DE00C14243 /* Assets.xcassets */; };
+		30E476A42073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 30E476A32073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		30E476AB2073C4DE00C14243 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E476AA2073C4DE00C14243 /* InterfaceController.swift */; };
+		30E476AD2073C4DE00C14243 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E476AC2073C4DE00C14243 /* ExtensionDelegate.swift */; };
+		30E476AF2073C4DE00C14243 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E476AE2073C4DE00C14243 /* NotificationController.swift */; };
+		30E476B12073C4DE00C14243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E476B02073C4DE00C14243 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30E476962073C4DE00C14243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E4767A2073C4DE00C14243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E476932073C4DE00C14243;
+			remoteInfo = "Dice Rolling for IMS 351 WatchKit App";
+		};
+		30E476A52073C4DE00C14243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E4767A2073C4DE00C14243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E476A22073C4DE00C14243;
+			remoteInfo = "Dice Rolling for IMS 351 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		30E476B82073C4DE00C14243 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				30E476A42073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E476BC2073C4DE00C14243 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				30E476952073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		30E476822073C4DE00C14243 /* Dice Rolling for IMS 351.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice Rolling for IMS 351.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E476852073C4DE00C14243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30E476872073C4DE00C14243 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30E4768A2073C4DE00C14243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30E4768C2073C4DE00C14243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30E4768F2073C4DE00C14243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30E476912073C4DE00C14243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E476942073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice Rolling for IMS 351 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E4769A2073C4DE00C14243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		30E4769C2073C4DE00C14243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30E4769E2073C4DE00C14243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E476A32073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dice Rolling for IMS 351 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E476A92073C4DE00C14243 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		30E476AA2073C4DE00C14243 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		30E476AC2073C4DE00C14243 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		30E476AE2073C4DE00C14243 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		30E476B02073C4DE00C14243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30E476B22073C4DE00C14243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30E4767F2073C4DE00C14243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E476A02073C4DE00C14243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30E476792073C4DE00C14243 = {
+			isa = PBXGroup;
+			children = (
+				30E476842073C4DE00C14243 /* Dice Rolling for IMS 351 */,
+				30E476982073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit App */,
+				30E476A72073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit Extension */,
+				30E476832073C4DE00C14243 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30E476832073C4DE00C14243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E476822073C4DE00C14243 /* Dice Rolling for IMS 351.app */,
+				30E476942073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit App.app */,
+				30E476A32073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30E476842073C4DE00C14243 /* Dice Rolling for IMS 351 */ = {
+			isa = PBXGroup;
+			children = (
+				30E476852073C4DE00C14243 /* AppDelegate.swift */,
+				30E476872073C4DE00C14243 /* ViewController.swift */,
+				30E476892073C4DE00C14243 /* Main.storyboard */,
+				30E4768C2073C4DE00C14243 /* Assets.xcassets */,
+				30E4768E2073C4DE00C14243 /* LaunchScreen.storyboard */,
+				30E476912073C4DE00C14243 /* Info.plist */,
+			);
+			path = "Dice Rolling for IMS 351";
+			sourceTree = "<group>";
+		};
+		30E476982073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				30E476992073C4DE00C14243 /* Interface.storyboard */,
+				30E4769C2073C4DE00C14243 /* Assets.xcassets */,
+				30E4769E2073C4DE00C14243 /* Info.plist */,
+			);
+			path = "Dice Rolling for IMS 351 WatchKit App";
+			sourceTree = "<group>";
+		};
+		30E476A72073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				30E476AA2073C4DE00C14243 /* InterfaceController.swift */,
+				30E476AC2073C4DE00C14243 /* ExtensionDelegate.swift */,
+				30E476AE2073C4DE00C14243 /* NotificationController.swift */,
+				30E476B02073C4DE00C14243 /* Assets.xcassets */,
+				30E476B22073C4DE00C14243 /* Info.plist */,
+				30E476A82073C4DE00C14243 /* Supporting Files */,
+			);
+			path = "Dice Rolling for IMS 351 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		30E476A82073C4DE00C14243 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30E476A92073C4DE00C14243 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30E476812073C4DE00C14243 /* Dice Rolling for IMS 351 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E476BD2073C4DE00C14243 /* Build configuration list for PBXNativeTarget "Dice Rolling for IMS 351" */;
+			buildPhases = (
+				30E4767E2073C4DE00C14243 /* Sources */,
+				30E4767F2073C4DE00C14243 /* Frameworks */,
+				30E476802073C4DE00C14243 /* Resources */,
+				30E476BC2073C4DE00C14243 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E476972073C4DE00C14243 /* PBXTargetDependency */,
+			);
+			name = "Dice Rolling for IMS 351";
+			productName = "Dice Rolling for IMS 351";
+			productReference = 30E476822073C4DE00C14243 /* Dice Rolling for IMS 351.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30E476932073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E476B92073C4DE00C14243 /* Build configuration list for PBXNativeTarget "Dice Rolling for IMS 351 WatchKit App" */;
+			buildPhases = (
+				30E476922073C4DE00C14243 /* Resources */,
+				30E476B82073C4DE00C14243 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E476A62073C4DE00C14243 /* PBXTargetDependency */,
+			);
+			name = "Dice Rolling for IMS 351 WatchKit App";
+			productName = "Dice Rolling for IMS 351 WatchKit App";
+			productReference = 30E476942073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		30E476A22073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E476B52073C4DE00C14243 /* Build configuration list for PBXNativeTarget "Dice Rolling for IMS 351 WatchKit Extension" */;
+			buildPhases = (
+				30E4769F2073C4DE00C14243 /* Sources */,
+				30E476A02073C4DE00C14243 /* Frameworks */,
+				30E476A12073C4DE00C14243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dice Rolling for IMS 351 WatchKit Extension";
+			productName = "Dice Rolling for IMS 351 WatchKit Extension";
+			productReference = 30E476A32073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30E4767A2073C4DE00C14243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = artiekuhn;
+				TargetAttributes = {
+					30E476812073C4DE00C14243 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E3G5SAS68Z;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					30E476932073C4DE00C14243 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E3G5SAS68Z;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					30E476A22073C4DE00C14243 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E3G5SAS68Z;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 30E4767D2073C4DE00C14243 /* Build configuration list for PBXProject "Dice Rolling for IMS 351" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30E476792073C4DE00C14243;
+			productRefGroup = 30E476832073C4DE00C14243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30E476812073C4DE00C14243 /* Dice Rolling for IMS 351 */,
+				30E476932073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit App */,
+				30E476A22073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30E476802073C4DE00C14243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E476902073C4DE00C14243 /* LaunchScreen.storyboard in Resources */,
+				30E4768D2073C4DE00C14243 /* Assets.xcassets in Resources */,
+				30E4768B2073C4DE00C14243 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E476922073C4DE00C14243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E4769D2073C4DE00C14243 /* Assets.xcassets in Resources */,
+				30E4769B2073C4DE00C14243 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E476A12073C4DE00C14243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E476B12073C4DE00C14243 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30E4767E2073C4DE00C14243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E476882073C4DE00C14243 /* ViewController.swift in Sources */,
+				30E476862073C4DE00C14243 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E4769F2073C4DE00C14243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E476AF2073C4DE00C14243 /* NotificationController.swift in Sources */,
+				30E476AD2073C4DE00C14243 /* ExtensionDelegate.swift in Sources */,
+				30E476AB2073C4DE00C14243 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30E476972073C4DE00C14243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E476932073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit App */;
+			targetProxy = 30E476962073C4DE00C14243 /* PBXContainerItemProxy */;
+		};
+		30E476A62073C4DE00C14243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E476A22073C4DE00C14243 /* Dice Rolling for IMS 351 WatchKit Extension */;
+			targetProxy = 30E476A52073C4DE00C14243 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30E476892073C4DE00C14243 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E4768A2073C4DE00C14243 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30E4768E2073C4DE00C14243 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E4768F2073C4DE00C14243 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		30E476992073C4DE00C14243 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E4769A2073C4DE00C14243 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30E476B32073C4DE00C14243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30E476B42073C4DE00C14243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30E476B62073C4DE00C14243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = E3G5SAS68Z;
+				INFOPLIST_FILE = "Dice Rolling for IMS 351 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artiekuhn.Dice-Rolling-for-IMS-351.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		30E476B72073C4DE00C14243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = E3G5SAS68Z;
+				INFOPLIST_FILE = "Dice Rolling for IMS 351 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artiekuhn.Dice-Rolling-for-IMS-351.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		30E476BA2073C4DE00C14243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E3G5SAS68Z;
+				IBSC_MODULE = Dice_Rolling_for_IMS_351_WatchKit_Extension;
+				INFOPLIST_FILE = "Dice Rolling for IMS 351 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artiekuhn.Dice-Rolling-for-IMS-351.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		30E476BB2073C4DE00C14243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E3G5SAS68Z;
+				IBSC_MODULE = Dice_Rolling_for_IMS_351_WatchKit_Extension;
+				INFOPLIST_FILE = "Dice Rolling for IMS 351 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artiekuhn.Dice-Rolling-for-IMS-351.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		30E476BE2073C4DE00C14243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E3G5SAS68Z;
+				INFOPLIST_FILE = "Dice Rolling for IMS 351/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommybojanin.dicewatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		30E476BF2073C4DE00C14243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E3G5SAS68Z;
+				INFOPLIST_FILE = "Dice Rolling for IMS 351/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommybojanin.dicewatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30E4767D2073C4DE00C14243 /* Build configuration list for PBXProject "Dice Rolling for IMS 351" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E476B32073C4DE00C14243 /* Debug */,
+				30E476B42073C4DE00C14243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E476B52073C4DE00C14243 /* Build configuration list for PBXNativeTarget "Dice Rolling for IMS 351 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E476B62073C4DE00C14243 /* Debug */,
+				30E476B72073C4DE00C14243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E476B92073C4DE00C14243 /* Build configuration list for PBXNativeTarget "Dice Rolling for IMS 351 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E476BA2073C4DE00C14243 /* Debug */,
+				30E476BB2073C4DE00C14243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E476BD2073C4DE00C14243 /* Build configuration list for PBXNativeTarget "Dice Rolling for IMS 351" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E476BE2073C4DE00C14243 /* Debug */,
+				30E476BF2073C4DE00C14243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30E4767A2073C4DE00C14243 /* Project object */;
+}

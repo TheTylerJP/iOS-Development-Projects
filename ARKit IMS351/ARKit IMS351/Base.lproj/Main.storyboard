@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L0j-IY-eKK">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Initial View Controller-->
+        <scene sceneID="Fpd-c6-jUf">
+            <objects>
+                <viewController id="Ymc-4K-1y3" customClass="InitialViewController" customModule="ARKit_IMS351" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Qs-bw-hhs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84h-Xj-nsJ">
+                                <rect key="frame" x="90" y="491" width="194" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Begin"/>
+                                <connections>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="UpY-6D-Gxw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JO9-af-d0f">
+                                <rect key="frame" x="90" y="568" width="194" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="How to Guide"/>
+                                <connections>
+                                    <segue destination="pdx-uZ-cEz" kind="show" id="qaE-1o-iRo"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homepage" translatesAutoresizingMaskIntoConstraints="NO" id="oSh-S0-wrh">
+                                <rect key="frame" x="0.0" y="-8" width="375" height="501"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="kRK-hW-OPD"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="amv-DO-1cB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dfU-LH-0gA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="151.19999999999999" y="98.50074962518741"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="521-Pa-j18">
+            <objects>
+                <viewController id="pdx-uZ-cEz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xL6-j3-Nml">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gHE-V2-RXt">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Application Prerequisites:
+
+1. iPhone 6s or later.
+
+2. iOS version 11 or later.
+
+3. The surface used to draw must be light colors AND under good lighting.
+
+4. The surface must also be flat.
+
+How to use the Application:   
+                                                                           
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">1. Start by pressing begin on the home screen.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">2. Choose your favorite color from the top bar.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">3. Wait for a yellow square to appear on the surface you are trying to draw on.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">4. Put fingers inside of the yellow square as if youre holding a pencil. 
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">5. Press with the opposite hand in the middle of the square to create a bright red dot.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">6. Press the draw button.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">7. Begin to draw while holding your phone steady.
+
+8. When you are finished drawing, press the draw button once more and then press the 3D button.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">9. SLOWLY raise your fingers while still in the draw position.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">10.  Engorge yourself on your new masterpiece.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+
+DISCLAIMER: 
+	This application uses large amounts of your iPhone CPU,battery power and memory. Try not use if your phone has low battery power.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+
+Initial code offered by Apples WWDC 2017.
+
+Built upon by Tommy Bojanin.</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="eo5-Vy-0Tc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AqG-Zq-CWq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-788" y="861.3193403298352"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="ARKit_IMS351" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RLh-bf-1c3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E6c-py-dvH" customClass="ARSCNView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </sceneKitView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yf6-WU-CVx" userLabel="3D Button">
+                                <rect key="frame" x="254" y="604" width="83" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="ztt-Yb-HSw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <state key="normal" title=" 3D!" image="shutter">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="shutterPressed"/>
+                                <state key="highlighted" image="shutterPressed"/>
+                                <connections>
+                                    <action selector="threeDMagicAction:" destination="BV1-FR-VrT" eventType="touchUpInside" id="vjH-7M-Yxm"/>
+                                </connections>
+                            </button>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="100" translatesAutoresizingMaskIntoConstraints="NO" id="9e0-zv-RiN" userLabel="Message Panel">
+                                <rect key="frame" x="15" y="59" width="113" height="36"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="AVp-TR-4Nw">
+                                    <rect key="frame" x="0.0" y="0.0" width="113" height="36"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R4B-nn-Jhq">
+                                            <rect key="frame" x="0.0" y="0.0" width="113" height="36"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="CFm-yP-zdd">
+                                                <rect key="frame" x="0.0" y="0.0" width="113" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="GT6-ZJ-can">
+                                                        <rect key="frame" x="10" y="10" width="93" height="16"/>
+                                                    </stackView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Tracking status" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mqz-65-rAs" userLabel="Messages label">
+                                                        <rect key="frame" x="10" y="13" width="93" height="23"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                                        <nil key="textColor"/>
+                                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <size key="shadowOffset" width="1" height="1"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="Mqz-65-rAs" secondAttribute="bottom" id="1km-qi-ZKK"/>
+                                                    <constraint firstAttribute="trailing" secondItem="GT6-ZJ-can" secondAttribute="trailing" constant="10" id="Hg8-2d-xn4"/>
+                                                    <constraint firstItem="GT6-ZJ-can" firstAttribute="leading" secondItem="Mqz-65-rAs" secondAttribute="leading" id="KrL-PE-Ahh"/>
+                                                    <constraint firstItem="GT6-ZJ-can" firstAttribute="top" secondItem="CFm-yP-zdd" secondAttribute="top" constant="10" id="Rgc-bI-Xie"/>
+                                                    <constraint firstAttribute="bottom" secondItem="GT6-ZJ-can" secondAttribute="bottom" constant="10" id="XdH-eE-lNg"/>
+                                                    <constraint firstItem="GT6-ZJ-can" firstAttribute="trailing" secondItem="Mqz-65-rAs" secondAttribute="trailing" id="mH2-TU-Q6u"/>
+                                                    <constraint firstItem="Mqz-65-rAs" firstAttribute="top" secondItem="CFm-yP-zdd" secondAttribute="topMargin" id="oku-cU-TQT"/>
+                                                    <constraint firstItem="GT6-ZJ-can" firstAttribute="leading" secondItem="CFm-yP-zdd" secondAttribute="leading" constant="10" id="vm5-bg-tpl"/>
+                                                </constraints>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="extraLight"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="R4B-nn-Jhq" firstAttribute="top" secondItem="AVp-TR-4Nw" secondAttribute="top" id="FYX-EE-qWe"/>
+                                        <constraint firstAttribute="bottom" secondItem="R4B-nn-Jhq" secondAttribute="bottom" id="Mss-Qs-GUM"/>
+                                        <constraint firstAttribute="trailing" secondItem="R4B-nn-Jhq" secondAttribute="trailing" id="nJ1-5B-yMb"/>
+                                        <constraint firstItem="R4B-nn-Jhq" firstAttribute="leading" secondItem="AVp-TR-4Nw" secondAttribute="leading" id="vPr-9X-lWc"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="enD-Wz-jYf"/>
+                                </constraints>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDz-qT-5Mj" userLabel="Draw Button">
+                                <rect key="frame" x="16" y="604" width="97" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <state key="normal" title=" Draw" image="shutter">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="selected" image="shutterPressed"/>
+                                <state key="highlighted" image="shutterPressed"/>
+                                <connections>
+                                    <action selector="drawAction" destination="BV1-FR-VrT" eventType="touchUpInside" id="lRq-4D-5gf"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hDO-1a-1MP">
+                                <rect key="frame" x="27" y="113" width="321" height="29"/>
+                                <segments>
+                                    <segment title="Black"/>
+                                    <segment title="Blue"/>
+                                    <segment title="Red"/>
+                                    <segment title="Green"/>
+                                    <segment title="Yellow"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentIndex:" destination="BV1-FR-VrT" eventType="valueChanged" id="t6G-pY-XIX"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="E6c-py-dvH" secondAttribute="bottom" id="6h6-BI-mhL"/>
+                            <constraint firstItem="E6c-py-dvH" firstAttribute="top" secondItem="RLh-bf-1c3" secondAttribute="top" id="7gH-DS-Crg"/>
+                            <constraint firstItem="E6c-py-dvH" firstAttribute="leading" secondItem="GBj-4O-Whc" secondAttribute="leading" id="8nh-ZQ-AuM"/>
+                            <constraint firstItem="9e0-zv-RiN" firstAttribute="top" secondItem="RLh-bf-1c3" secondAttribute="topMargin" constant="-5" id="DiT-95-XKU"/>
+                            <constraint firstItem="FDz-qT-5Mj" firstAttribute="baseline" secondItem="Yf6-WU-CVx" secondAttribute="baseline" id="E5g-Zm-CMF"/>
+                            <constraint firstItem="GBj-4O-Whc" firstAttribute="bottom" secondItem="Yf6-WU-CVx" secondAttribute="bottom" constant="15" id="EyD-gg-W2h"/>
+                            <constraint firstItem="9e0-zv-RiN" firstAttribute="leading" secondItem="GBj-4O-Whc" secondAttribute="leading" constant="15" id="Svc-Cq-4UH"/>
+                            <constraint firstItem="hDO-1a-1MP" firstAttribute="centerX" secondItem="E6c-py-dvH" secondAttribute="centerX" id="VlK-pS-F5C"/>
+                            <constraint firstAttribute="trailing" secondItem="Yf6-WU-CVx" secondAttribute="trailing" constant="38" id="bqj-29-7vr"/>
+                            <constraint firstItem="hDO-1a-1MP" firstAttribute="top" secondItem="9e0-zv-RiN" secondAttribute="bottom" constant="18" id="hYC-ym-4S3"/>
+                            <constraint firstItem="Yf6-WU-CVx" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="FDz-qT-5Mj" secondAttribute="trailing" symbolic="YES" id="iaw-eF-9bI"/>
+                            <constraint firstItem="GBj-4O-Whc" firstAttribute="trailing" secondItem="E6c-py-dvH" secondAttribute="trailing" id="lHd-lf-g1u"/>
+                            <constraint firstItem="hDO-1a-1MP" firstAttribute="leading" secondItem="GBj-4O-Whc" secondAttribute="leading" constant="27" id="qAw-iH-NGE"/>
+                            <constraint firstItem="FDz-qT-5Mj" firstAttribute="leading" secondItem="RLh-bf-1c3" secondAttribute="leadingMargin" id="zHu-bM-TWN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GBj-4O-Whc"/>
+                    </view>
+                    <connections>
+                        <outlet property="drawButton" destination="FDz-qT-5Mj" id="cBO-Pi-PsO"/>
+                        <outlet property="materialPicker" destination="hDO-1a-1MP" id="FWj-QW-sto"/>
+                        <outlet property="messageLabel" destination="Mqz-65-rAs" id="onG-KP-sQY"/>
+                        <outlet property="messagePanel" destination="CFm-yP-zdd" id="zgp-xP-H21"/>
+                        <outlet property="sceneView" destination="E6c-py-dvH" id="Gr4-Uw-Z4A"/>
+                        <outlet property="threeDMagicButton" destination="Yf6-WU-CVx" id="4Jb-6j-Inl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="996" y="98.50074962518741"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9mV-x0-PAj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="L0j-IY-eKK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="c8B-VP-bJ1">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Ymc-4K-1y3" kind="relationship" relationship="rootViewController" id="Yun-Us-LDP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xg9-dI-Tk9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-913" y="-33"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="homepage" width="600" height="350"/>
+        <image name="shutter" width="48" height="48"/>
+        <image name="shutterPressed" width="48" height="48"/>
+    </resources>
+</document>
