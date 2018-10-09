@@ -66,6 +66,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         setupScene()
         setupSegmentedControl()
         
+        print("Tommy, fix your signing certificates! ==Tyler **Located in viewController.swift**")
+        
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapAction))
         view.addGestureRecognizer(tapGestureRecognizer)
     }
